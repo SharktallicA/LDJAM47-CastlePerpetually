@@ -9,5 +9,7 @@ Our team's entry for Ludum Dare 47 (2nd to 5th October 2020) game jam. With the 
 ## Tools
 * Unity 2020.1.7f1
 * Aseprite
-## Third-part assets
+## Third-party assets
 * https://assetstore.unity.com/packages/2d/free-2d-mega-pack-177430
+## Behind the scenes
+Our team is comprised of entirely of programmers and we decided to take up the challenge of a 2D game when our experience has almost entirely been developing 3D games. Considering that and our day-time jobs, we decided to keep the idea simple and effectively. In terms of the finished product, it's not as polished as we like and we didn't have time for audio, but we still believe we've got a solid foundation for a game that we can continue to develop in the future!
