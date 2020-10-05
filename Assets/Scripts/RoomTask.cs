@@ -33,7 +33,7 @@ public class RoomTask : MonoBehaviour
     /// dice role.
     /// </summary>
     [SerializeField]
-    protected int doorSuccessPct = 75;
+    protected int doorSuccessPct = 50;
 
     /// <summary>
     /// 
@@ -54,7 +54,7 @@ public class RoomTask : MonoBehaviour
     private void Start()
     {
         diag = GetComponent<DialogueTrigger>();
-        if (!diag) Destroy(this);
+        //if (!diag) Destroy(this);
     }
 
     /// <summary>
@@ -70,6 +70,25 @@ public class RoomTask : MonoBehaviour
     }
 
     /// <summary>
+    /// Resets the room task. Use this when the player moves out of
+    /// range of the task after triggering it. 
+    /// </summary>
+    public void Reset()
+    {
+        
+    }
+
+    /// <summary>
+    /// Destroyss the room task instance. Use this when the player
+    /// has completed the task.
+    /// </summary>
+    public void End()
+    {
+        Reset();
+        Destroy(this);
+    }
+
+    /// <summary>
     /// Flags if the task has been completely successfully
     /// by the player.
     /// </summary>
@@ -80,13 +99,16 @@ public class RoomTask : MonoBehaviour
     /// Returns:
     /// - true if the door will lead to another room.
     /// - false if the door will lead to the start.
+    /// - null if this task is due to run again.
     /// </summary>
-    public bool IsSuccess()
+    public bool? IsSuccess()
     {
         int rand = Random.Range(1, 100);
 
         if (rand <= doorSuccessPct)
             return true;
+        else if (doorSuccessPct == 0)
+            return null;
         else
             return false;
     }

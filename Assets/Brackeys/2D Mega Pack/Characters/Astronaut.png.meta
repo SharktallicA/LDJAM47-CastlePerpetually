@@ -22,21 +22,18 @@ TextureImporter:
     second: AstronautWalk_06
   - first:
       213: 21300012
-    second: AstronautWalk_07
-  - first:
-      213: 21300014
     second: AstronautIdle
   - first:
-      213: 21300016
+      213: 21300014
     second: AstronautJump
   - first:
-      213: 21300018
+      213: 21300016
     second: AstronautArm
   - first:
-      213: 21300020
+      213: 21300018
     second: AstronautBigGun
   - first:
-      213: 21300022
+      213: 21300020
     second: AstronautPistol
   externalObjects: {}
   serializedVersion: 11
@@ -254,7 +251,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f4a4da522c0a1dc46891a49f527a4ad2
-      internalID: 21300014
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -275,7 +272,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 81640a2191f29254195c38d71a36bfb2
-      internalID: 21300016
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -296,7 +293,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7cbbad4cfa32d524588159f552113399
-      internalID: 21300018
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -317,7 +314,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 064df71b5e374f449b6b10276df8191d
-      internalID: 21300020
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
@@ -338,7 +335,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 6f1ad5cced2c5e04e900ab199535e945
-      internalID: 21300022
+      internalID: 21300020
       vertices: []
       indices: 
       edges: []

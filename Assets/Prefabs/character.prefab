@@ -100,9 +100,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curRoom: {fileID: 0}
   walkSpeed: 4
+  doorClosed: {fileID: 0}
+  doorOpened: {fileID: 0}
+  range: 1
   InteractableObjects:
     serializedVersion: 2
     m_Bits: 0
+  tiles: {fileID: 0}
+  doors: {fileID: 0}
 --- !u!50 &7140253155787335187
 Rigidbody2D:
   serializedVersion: 4

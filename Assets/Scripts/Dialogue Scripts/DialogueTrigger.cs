@@ -13,4 +13,9 @@ public class DialogueTrigger : MonoBehaviour
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
     }
+
+    public bool IsFinished()
+    {
+        return FindObjectOfType<DialogueManager>().IsFinished();
+    }
 }
